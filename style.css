@@ -238,7 +238,7 @@ details[open] > summary .ch {transform: rotate(-135deg);}
   #nav a {flex: 1; flex-direction: column; gap: 2px; font-size: 11.500px; padding: 6px 0 5px; color: var(--muted); border-radius: 0;}
   #nav a[aria-current="page"] {background: none; color: var(--teal); font-weight: 600;}
   #nav svg {width: 23px; height: 23px;}
-  main {padding-bottom: calc(66px + env(safe-area-inset-bottom));}
+  #view {padding-bottom: calc(76px + env(safe-area-inset-bottom));}
   .wrap {padding: 12px 12px 26px;}
   .hero {min-height: calc(100svh - var(--bar) - 66px);}
   .hero .in-hero {padding: 20px 18px 92px; gap: 0;}

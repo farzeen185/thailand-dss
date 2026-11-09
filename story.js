@@ -159,7 +159,7 @@ async function setupDecomp() {
     const o = lineOpt(sets[i], "TWSA (mm)");
     const [lo, hi] = range([G, ca, cb, ra, rb], "2002-01-01", "2025-01-01");
     o.yAxis.min = lo; o.yAxis.max = hi;
-    if (ph) o.grid.bottom = 66;
+    o.grid.bottom = ph ? 66 : 80;
     c.setOption(o);
   });
 }

@@ -301,6 +301,7 @@ function render(keepScroll) {
   const page = PAGES[p] ? p : "story";
   if (page === "basins") ST.rid = arg && REG[arg] && BAS.includes(arg) ? arg : "TH";
   document.querySelectorAll("#nav a").forEach(a => { if (a.dataset.p === page) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+  view.className = page === "basins" || page === "priority" ? "wrap" : "";
   const y = window.scrollY;
   runCleanups();
   disposeCharts();
