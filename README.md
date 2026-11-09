@@ -1,2 +1,5 @@
-# thailand-dss
-Thailand Water Storage Decision Support System: satellite evidence, climate models and basin priorities, 2002-2024.
+# Thailand Water Storage Decision Support System
+
+Live site: https://farzeen185.github.io/thailand-dss/
+
+Farzeen Khan, Asian Institute of Technology, 2026.

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thailand Water Storage DSS</title>
+<meta name="description" content="Thailand is losing water. Satellite evidence, climate models and basin priorities for 22 river basins, 2002–2024.">
+<meta name="theme-color" content="#06192a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<header id="bar">
+  <a class="brand" href="#story"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s7 7.200 7 12a7 7 0 0 1-14 0c0-4.800 7-12 7-12z"/></svg>Thailand Water DSS</a>
+  <nav id="nav" aria-label="Sections">
+    <a href="#story" data-p="story"><svg viewBox="0 0 24 24"><path d="M4 5.500A2.500 2.500 0 0 1 6.500 3H20v15H6.500A2.500 2.500 0 0 0 4 20.500z"/><path d="M4 20.500A2.500 2.500 0 0 0 6.500 21H20v-3"/></svg><span>Story</span></a>
+    <a href="#basins" data-p="basins"><svg viewBox="0 0 24 24"><path d="M12 3s7 7.200 7 12a7 7 0 0 1-14 0c0-4.800 7-12 7-12z"/></svg><span>Basins</span></a>
+    <a href="#priority" data-p="priority"><svg viewBox="0 0 24 24"><path d="M6 21V4"/><path d="M6 5h12l-3 4 3 4H6"/></svg><span>Priority</span></a>
+    <a href="#results" data-p="results"><svg viewBox="0 0 24 24"><rect x="3.500" y="3.500" width="7" height="7" rx="1.500"/><rect x="13.500" y="3.500" width="7" height="7" rx="1.500"/><rect x="3.500" y="13.500" width="7" height="7" rx="1.500"/><rect x="13.500" y="13.500" width="7" height="7" rx="1.500"/></svg><span>All results</span></a>
+  </nav>
+</header>
+<main id="view" aria-live="polite"><div class="loading">Loading Thailand water data…</div></main>
+<div id="box" hidden><button type="button" aria-label="Close">×</button><img alt=""></div>
+<noscript><p style="padding:24px">This site needs JavaScript to draw its maps and charts.</p></noscript>
+<script src="vendor/echarts.min.js" defer></script>
+<script src="app.js" defer></script>
+<script src="story.js" defer></script>
+</body>
+</html>
